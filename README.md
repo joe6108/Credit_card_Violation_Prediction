@@ -4,6 +4,15 @@
 ```
 
 ```
+## Environment
+1. VScode
+2. python 3.8
+3. MiniConda
+## Request module -> conda
+1. `conda install pandas -y`
+2. `conda install scikit-learn -y`
+
+
 ## 資料來源
 - Kaggle
 ```
