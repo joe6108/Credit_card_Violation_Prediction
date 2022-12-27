@@ -33,7 +33,7 @@ for i in range(len(data1['Sleep quality'])):
         print("error", i)
         break
 # 決定留下的數值--------------------------------------------------------------------
-df1 = data1.drop(['Wake up', 'Heart rate', 'Start', 'End', 'Sleep Notes'], axis = 1)
+df1 = data1.drop(['Wake up', 'Heart rate', 'Sleep Notes'], axis = 1)
 #將資料做數值轉換，並建立一個新column儲存它們---------------------------------------------------------
 for j in range(len(data1['Sleep Notes'])):
     list_Sleep_notes = ["Stressful day", 'Drank coffee', 'Drank tea', 'Ate late', 'Worked out'] #所有活動
